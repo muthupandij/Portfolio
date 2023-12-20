@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/62fe5791bb.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="heading">
+            <div class="Folio">
+                <h1> <a href="#Home">Portfolio</a></h1>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Resume">Resume</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="icon">
+                <button type="button" onclick="menulist()"><i class="fa-solid fa-bars-staggered"></i></button>    
+            </div>
+        </nav>
+    </header>
+        <div class="icon-list" id="list-block">
+            <ul>
+                <li><a href="#Home"><i class="fa-solid fa-house" style="font-size: 20px;"></i> Home</a></li>
+                <li><a href="#About"><i class="fa-solid fa-circle-info" style="font-size: 20px;"></i> About</a></li>
+                <li><a href="#Resume"><i class="fa-solid fa-file" style="font-size: 20px;"></i> Resume</a></li>
+                <li><a href="#Contact"><i class="fa-solid fa-id-badge" style="font-size: 20px;"></i> Contact</a></li>
+            </ul>
+        </div>
+            <!--Home -->
+        <div class="Home" id="Home">
+            <img src="assets/background.jpg" alt="">
+            <div class="Name">
+                <h2>I'm</h2>
+                <h1>Muthupandi</h1>
+                <h2>Web Developer</h2>
+            </div>
+            <div class="Button1">
+                <a href="#Contact">Contact Me</a>
+            </div>
+            <div class="social-media">
+                <ul>
+                    <li><a href="https://www.facebook.com/muthupandi.kutty.3?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </li><br>
+                    <li><a href="https://instagram.com/muthu__1107?igshid=MTNiYzNiMzkwZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </li><br>
+                    <li><a href="https://twitter.com/muthu__1107?t=HYLiRP8WmUzJEsisdcGq7A&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    </li><br>
+                    <li><a href="9876543210" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- about -->
+        <div class="About" id="About">
+            <div class="About-main">
+                <div class="Img1">
+                    <img src="assets/rat.jpg">
+                </div>
+                <div class="About-Heading">
+                    <h1>About</h1>
+                    <div class="About-Content">
+                        <h3>Introduction:</h3>
+                        <p> I am [MUTHUPANDI M], and I believe in the power of self-awareness and positive self-definition. Embracing my strengths and learning from my experiences, I am on a journey to continuously grow and contribute positively to my own life and the lives of those around me.</p>
+                        <h3>Strengths:</h3>
+                        <p> I embrace change with an open mind, adapting quickly to new situations and finding innovative solutions.</p>
+                        <h3>Goals:</h3>
+                        <p>Software Developer</p>
+                        <h3>Positive Affirmations:</h3>
+                        <p>"I am capable, and I trust in my abilities to overcome challenges."</p>
+                        <p>"Every day is an opportunity for growth and learning."</p>
+                        <p>"I am deserving of success and happiness."</p>
+                        <h3>Gratitude:</h3>
+                        <p>I am grateful for the supportive relationships in my life, the opportunities for personal and professional development, and the ability to make a positive impact on the world around me.</p>
+                        <p>In defining myself positively, I am committed to embracing my journey, learning from experiences, and cultivating a mindset of continuous improvement.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- cards -->
+        <section>
+            <div class="cards">
+                <div class="cards-button">
+                    <button type="button" onclick="clicked('Details')">DETAILS</button>
+                    <button type="button" onclick="clicked('Skill')">SKILL</button>
+                    <button type="button" onclick="clicked('Education')">EDUCATION</button>
+                    <button type="button" onclick="clicked('Tools')">TOOLS</button>
+                </div>      
+                <div class="cards-main">
+                    <div class="cards-cards" id="Resume">
+            
+                    </div>      
+                </div>
+            </div>
+        </section>
+        <section class="main-Contact" id="Contact">
+            <div class="Head5">
+                <h1>CONTACT</h1>
+            </div>
+            <div class="form">
+                <h1>CONTACT US</h1>
+                <div class="inputs">
+                    <input type="text" placeholder="First Name" class="input">
+                </div>
+                <div class="inputs">
+                    <input type="text" placeholder="Email Address" class="input">
+                </div>
+                <div class="inputs">
+                    <input type="text" placeholder="Subject" class="input">
+                </div>
+                <div class="inputs">
+                    <textarea placeholder="Message" class="input"></textarea>
+                </div>
+                <div class="Button4">
+                    <button>submitted</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <footer class="footer-content">
+                <div class="footer-section">
+                    <div class="rows">
+                        <h5>Email</h5>
+                        <p>muthu@gmail.com</p>
+                    </div>
+                    <div class="rows">
+                        <h5>Phone</h5>
+                        <p>9876543210</p>
+                    </div>
+                    <div class="rows">
+                        <h5>Address</h5>
+                        <p>125/A, CA commerical Area,Madurai,Tamilnadu</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-content2">
+                    <div class="footer-last">
+                        <p>Copyright © 2023</p>
+                        <a class="anchar" href="muthu.com">muthu</a>
+                    </div>
+                </div>
+            </footer>
+        </section>
+        <script src="portfolio.js"></script>
+</body>
+</html>

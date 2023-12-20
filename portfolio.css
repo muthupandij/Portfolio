@@ -1,0 +1,1099 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+.heading{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    backdrop-filter: blur(7px) saturate(200%);
+    -webkit-backdrop-filter: blur(7px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.2);
+    padding: 25px;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s;
+    z-index: 5;
+    align-items: center;
+}
+
+.Folio a{
+    transition: 0.3s;
+    font-size: 40px;
+}
+
+.Folio a{
+    text-decoration: none;
+    color: white;
+}
+
+.heading a:hover{
+    transition: 0.3s;
+    color:  gold;
+    transition: 0.7;
+}
+
+
+.list ul{
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    transition: 0.3s;
+}
+
+
+.list ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 25px;
+    color: white;
+}
+
+.list ul li a:hover{
+    transition: 0.3s;
+    color: gold;
+    transition: 0.7;
+}
+
+.icon button{
+    display: none;
+}
+
+.icon button{
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+.icon button:hover{
+    color: gold;
+    transition: 0.3s;
+}
+
+.icon-list{
+    position: absolute;
+    top: 100px;
+    right: 60px;
+    display: none;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    backdrop-filter: blur(7px) saturate(200%);
+    -webkit-backdrop-filter: blur(7px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.2);
+    z-index: 10;
+    border-radius: 10px;
+    /* text-align: center; */
+    transition: all 0.3s;
+    z-index: 10;
+}
+
+.icon-list ul{
+    list-style-type: none;
+}
+
+.icon-list ul li{
+    padding: 5px;
+}
+
+.icon-list ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-list ul li a:hover{
+    color: gold;
+    transition: 0.3s;
+}
+
+.Home{
+    position: relative;
+    height: 36rem;
+    width: 100%;
+}
+
+.Home img{
+    height: 100%;
+    width: 100%;
+}
+
+.Name{
+    position: absolute;
+    left: 5%;
+    top: 10rem;
+    font-size: 40px;
+    color: white;
+}
+
+.Button1 a{
+    position: absolute;
+    top: 25rem;
+    left: 6%;
+    padding: 20px;
+    font-size: 18px;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.Button1 a:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: gold;
+    transition: 0.3s;
+}
+
+.social-media{
+    position: absolute;
+    left: 90%;
+    top: 14rem;    
+    z-index: 1;
+}
+
+.social-media ul{
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.social-media ul li a{
+    color: white;
+    transition: 0.3s;
+}
+
+.social-media ul li a:hover{
+    color: gold;
+    transition: 0.3s;
+}
+
+.About{
+    background-color: #222222;
+}
+
+.About-main{
+    display: flex;
+    color: white;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.About-Heading h1{
+    text-align: center;
+    font-size: 4rem;
+    color: #8a8a8a;
+}
+
+.About-Heading{
+    width: 500px;
+}
+
+.About-Content p{
+    padding-bottom: 20px;
+}
+
+.About-Content h3{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Img1 img{
+   width: 550px;
+   height: 550px;
+}
+
+.cards{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(7px) saturate(200%);
+    -webkit-backdrop-filter: blur(7px) saturate(200%);
+    background-color: rgba(131, 71, 143, 0.836);
+    background: url(assets/Do\ More.jpg);
+    object-fit: fill;
+    background-position: 100% 50%;
+    filter: saturate(0.5);
+}
+
+
+.cards-button{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cards-button button{
+    height: 5rem;
+    width: 10rem;
+    padding: 15px;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.cards-button button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+.cards-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.card1{
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.cards .card1:hover{
+    transition: 0.3s;
+    box-shadow: 0px 0px 20px #ffffffb3;
+}
+
+.text1{
+    font-size: 17px;
+    color: rgb(233, 182, 13);
+    margin: 30px 0px 0px 10px;
+}
+
+.text1 h1{
+    padding-bottom: 15px;
+}
+
+.card2{
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.cards .card2:hover{
+    transition: 0.3s;
+    box-shadow: 0px 0px 20px #ffffffb3;
+}
+
+.text2{
+    font-size: 18px;
+    color: rgb(233, 182, 13);
+    margin: 30px 0px 0px 30px;
+}
+
+.text2 h2{
+    padding-bottom: 20px;
+}
+
+.card3{
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    transition: 0.3s;
+    border: 1px solid white;
+}
+
+.cards .card3:hover{
+    transition: 0.3s;
+    box-shadow: 0px 0px 20px #ffffffb3;
+}
+
+.text3{
+    font-size: 15px;
+    color: rgb(233, 182, 13);
+    margin: 20px 0px 0px 10px;
+}
+
+.text3 h3,h4{
+    padding-bottom: 18px;
+}
+
+.card4{
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    transition: 0.3s;
+    border: 1px solid white;
+}
+
+.cards .card4:hover{
+    transition: 0.3s;
+    box-shadow: 0px 0px 20px #ffffffb3;
+}
+
+.text4{
+    font-size: 20px;
+    color: rgb(233, 182, 13);
+    margin: 30px 0px 0px 20px;
+}
+
+.text4 h2{
+    padding-bottom: 30px;
+}
+
+.main-Contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.Head5 h1{
+    font-size: 65px;
+    color: #717171;
+}
+
+.form{
+    width: 25rem;
+    padding: 30px 85px;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.form h1{
+    margin-top: 0px;
+    font-weight: 200;
+}
+
+.inputs{
+    padding: 15px 0px;
+}
+
+.input{
+    width: 100%;
+    background: none;
+    border: 1px solid black;
+    padding: 20px 10px;
+    outline: none;
+    font-size: 18px;
+    margin-top: 8px;
+    border-radius: 0px;
+}
+
+.Button4 button{
+    display: block;
+    background: transparent;
+    padding: 20px;
+    color: black;
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-size: 17px;
+    border-radius: 0px;
+    transition: 0.3s; 
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.Button4 button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-content{
+    height: 50vh;
+    padding: 20px;
+    background-color: #222222;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-last{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center center;
+    gap: 10px;
+    color: white;
+
+}
+
+.footer-last p{
+    text-align: center;
+}
+
+.footer-last .anchar{
+    text-decoration: none;
+    color: #9b59b6;
+    transition: 0.3s;
+}
+
+.footer-last .anchar:hover{
+    color: slategrey;
+    transition: 0.3s;
+}
+
+@media (min-width: 320px) and  (max-width: 480px){
+    .heading{
+        width: 100%;
+        padding: 24px;
+    }
+
+    .Folio h1 a{
+        margin-right: 45px;
+        font-size: 25px;
+    }
+    .list ul{
+        display: none;
+    }
+
+    .icon button{
+        margin-right: 45px;
+        display: block;
+        font-size: 15px;
+    }
+
+    .icon-list{
+        position: fixed;
+        right: 34px;
+        top: 59px;
+        height: 200px;
+        width: 200px;
+        padding: 20px 20px;
+    }
+
+    .icon-list ul li{
+        padding-bottom: 18px;
+    }
+
+    .icon-list ul li a{
+        font-size: 25px;
+    }
+
+    .Home img{
+        position: relative;
+        height: 36rem;
+        width: 100%;
+    }
+
+    .Name{
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    .Button1 a{
+        margin: -85px 10px;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .social-media{
+        left: 83%;
+        top: 12rem;
+    }
+
+    .social-media ul{
+        font-size: 20px;
+    }
+
+    .About-main{
+        flex-wrap: wrap;
+    }
+
+    .About-Heading{
+        padding: 0px 10px;
+    }
+
+    .Img1 img{
+        display: none;
+        width: 100%;
+    }
+
+    .cards-cards{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .cards{
+        height: 100%;
+        width: 100%;
+    }
+
+    .cards-button{
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .cards-button button{
+        height: 3rem;
+        width: 7rem;
+        font-size: 11px;
+        padding: 2px;
+    }
+
+    .card1{
+        height: 14rem;
+        width: 14rem;
+    }
+
+    .text1{
+        font-size: 15px;
+    }
+
+    .card2{
+        height: 14rem;
+        width: 14rem;
+    }
+
+    .card3{
+        height: 17rem;
+        width: 14rem;
+    }
+
+    .text3{
+        font-size: 13px;
+    }
+
+    .card4{
+        height: 14rem;
+        width: 14rem;
+    }
+
+
+    .Head5 h1{
+        font-size: 40px;
+    }
+
+    .form{
+        width: 15rem;
+        padding: 30px;
+    }
+    
+    .form h1{
+        font-size: 18px;
+    }
+
+    .footer-content{
+        height: 100%;
+    }
+
+    .footer-section{
+        font-size: 17px;
+        gap: 55px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+
+    .footer-last{
+        font-size: 18px;
+        width: 15rem;
+        margin-top: 25px;
+    }
+    
+}
+
+@media (min-width: 481px) and  (max-width: 768px) {
+    .heading{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .Folio h1{
+        margin-right: 65px;
+        font-size: 25px;
+    }
+    .list ul{
+        display: none;
+    }
+
+    .icon button{
+        font-size: 27px;
+        margin-right: 65px;
+        display: block;
+    }
+
+    .icon-list{
+        position: fixed;
+        right: 100px;
+        top: 85px;
+        height: 300px;
+        width: 300px;
+        padding: 20px 20px;
+    }
+
+    .icon-list ul li{
+        padding-bottom: 38px;
+    }
+
+    .icon-list ul li a{
+        font-size: 34px;
+    }
+
+    .Home img{
+        position: relative;
+        height: 36rem;
+        width: 100%;
+    }
+
+    .Name{
+        font-size: 23px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    .Button1 button{
+        margin: -41px 10px;
+        padding: 6px;
+        height: 46px;
+        width: 89px;
+        font-size: 12px;
+    }
+
+    .social-media{
+        left: 83%;
+        top: 12rem;
+    }
+
+    .social-media ul{
+        font-size: 34px;
+    }
+    
+    .About-main{
+        flex-wrap: wrap;
+    }
+
+    .About-Content p{
+        font-size: 21px;
+        padding-bottom: 20px;
+    }
+
+    .About-Heading h1{
+        font-size: 6rem;
+    }
+
+    .About-Content h3{
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .About-Heading{
+        padding: 0px 10px;
+    }
+
+    .Img1 img{
+        display: none;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .cards-cards{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .cards{
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .cards-img img{
+        width: 100%;
+        height: 91rem;
+    }
+
+    .cards-button{
+        top: 60px;
+        left: 0rem;
+        flex-wrap: wrap;
+    }
+
+    .cards-button button{
+        height: 4rem;
+        width: 10rem;
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .text1{
+        font-size: 20px;
+    }
+
+    .text2{
+        font-size: 20px;
+    }
+
+    .text3{
+        font-size: 15px;
+    }
+    .text4{
+        font-size: 24px;
+    }
+
+    .Head5 h1{
+        font-size: 60px;
+    }
+
+    .form{
+        height: 100%;
+    }
+
+    .footer-content{
+        height: 100%;
+    }
+
+    .footer-section{
+        font-size: 25px;
+        gap: 55px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-last{
+        font-size: 23px;
+        width: 35rem;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 769px) and  (max-width: 1024px) {
+    .heading{
+        width: 100%;
+        padding: 35px;
+    }
+
+    .Folio h1{
+        margin-right: 75px;
+        font-size: 25px;
+    }
+    .list ul{
+        display: none;
+    }
+
+    .icon button{
+        font-size: 30px;
+        margin-right: 40px;
+        display: block;
+    }
+
+    .icon-list{
+        position: fixed;
+        right: 100px;
+        top: 85px;
+        height: 300px;
+        width: 300px;
+        padding: 20px 20px;
+    }
+
+    .icon-list ul li{
+        padding-bottom: 38px;
+    }
+
+    .icon-list ul li a{
+        font-size: 34px;
+    }
+
+    .Home img{
+        position: relative;
+        height: 36rem;
+        width: 100%;
+    }
+
+    .Name{
+        font-size: 32px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    .Button1 button{
+        margin: 10px 7px;
+        padding: 10px;
+        height: 56px;
+        width: 112px;
+        font-size: 16px;
+    }
+
+    .social-media{
+        left: 83%;
+        top: 12rem;
+    }
+
+    .social-media ul{
+        font-size: 40px;
+    }
+
+    .About-Heading h1{
+        font-size: 6rem;
+    }
+    .About-main{
+        flex-wrap: wrap;
+    }
+    .About-Content p{
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+
+    .About-Content h3{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .About-Heading{
+        padding: 0px 10px;
+    }
+
+    .Img1 img{
+        padding: 10px;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .cards{
+        height: 100%;
+        width: 100%;
+    }
+
+    .cards-button{
+        top: 66px;
+        left: 6%;
+        flex-wrap: wrap;
+    }
+
+    .cards-button button{
+        height: 5rem;
+        width: 11rem;
+        font-size: 20px;
+        padding: 5px;
+    
+    }
+
+    .text1{
+        font-size: 16px;
+    }
+    
+    .text2{
+        font-size: 20px;
+        margin: 19px 0px 0px 22px;
+    }
+
+    .text3{
+        font-size: 20px;
+    }
+
+    .text4{
+        font-size: 23px;
+    }
+
+    .Head5 h1{
+        font-size: 99px;
+    }
+
+    .form h1{
+        font-size: 40px;
+    }
+
+    .About-Content{
+        height: 100%;
+    }
+
+    .footer-section{
+        font-size: 25px;
+        gap: 55px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-last{
+        font-size: 26px;
+        width: 30rem;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 1025px) and  (max-width: 1200px) {
+    .heading{
+        width: 100%;
+        padding: 35px;
+    }
+
+    .Folio h1 a{
+        margin-right: 150px;
+        font-size: 50px;
+    }
+    .list ul{
+        display: none;
+    }
+
+    .icon button{
+        font-size: 30px;
+        margin-right: 75px;
+        display: block;
+    }
+
+    .icon-list{
+        position: fixed;
+        right: 146px;
+        top: 107px;
+        height: 400px;
+        width: 400px;
+        padding: 20px 20px;
+    }
+
+    .icon-list ul li{
+        padding-bottom: 45px;
+    }
+
+    .icon-list ul li a{
+        font-size: 43px;
+    }
+
+    .Home img{
+        position: relative;
+        height: 36rem;
+        width: 100%;
+    }
+
+    .Name{
+        font-size: 35px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    .Button1 a{
+        margin: 25px 7px;
+        padding: 10px;
+        height: 35px;
+        width: 100px;
+        font-size: 21px;
+    }
+
+    .social-media{
+        left: 83%;
+        top: 12rem;
+    }
+
+    .social-media ul{
+        font-size: 40px;
+    }
+    
+    .About-Heading{
+        padding: 0px 10px;
+    }
+
+    .About-main{
+        flex-wrap: wrap;
+    }
+    .About-Heading h1 {
+        font-size: 7rem;
+    }
+
+    .About-Content p {
+        width: 35rem;
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .About-Content h3{
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+
+    .Img1 img{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .cards{
+        width: 100%;
+    }
+
+
+    .cards-img img{
+        width: 100%;
+        height: 58rem;
+    }
+
+    .cards-button{
+        top: 66px;
+        left: 6%;
+        flex-wrap: wrap;
+    }
+
+    .cards-button button{
+        height: 74px;
+        width: 197px;
+        font-size: 29px;
+        padding: 2px;
+    }
+
+    .text1{
+        font-size: 21px;
+    }
+    
+    .text2{
+        font-size: 24px;
+        margin: 19px 0px 0px 22px;
+    }
+
+    .text3{
+        font-size: 26px;
+    }
+
+    .text4{
+        font-size: 31px;
+    }
+
+    .Head5 h1{
+        font-size: 85px;
+    }
+
+    .form{
+        height: 50rem;
+    }
+
+    .form h1{
+        font-size: 35px;
+    }
+
+    .inputs{
+        margin: 12px 0px;
+    }
+
+    .footer-section{
+        font-size: 28px;
+    }
+
+    .footer-last{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+}
